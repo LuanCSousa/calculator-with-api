@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.results{
+    padding-top: 10px;
+    b{
+        font-size: 30px;
+
+    }
+}

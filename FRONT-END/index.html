@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora API</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="calculadora">
+            <input type="number" placeholder="Digite o primeiro número" id="num1">
+            <input type="number" placeholder="Digite o segundo número" id="num2">
+            <form>
+                <label for="operator">Escolha o operador:</label>
+                <select name="operator" id="operator">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">x</option>
+                    <option value="/">/</option>
+                </select>
+            </form>
+            <input type="submit" value="Calcular" id="btnEnviar">
+        </div>
+        <div class="results">
+            <b id="result"></b>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
